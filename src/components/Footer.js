@@ -4,15 +4,15 @@ import {FaInstagram, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
 const Footer = () => {
     return (
         <footer className="bg-slate-900 py-2 border-t border-pink-600 text-center">
-            <div className="inline-flex space-x-2 py-2 px-2 border border-yellow-400 rounded-xl">
+            <div className="inline-flex space-x-4 md:space-x-2 py-2 px-2 border border-yellow-400 rounded-xl">
                 <a href="https://www.instagram.com/justinmjoh">
-                    <FaInstagram className="h-5 w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="Instagram" />
+                    <FaInstagram className="h-6 w-6 md:h-5 md:w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="Instagram" />
                 </a>
                 <a href="https://www.linkedin.com/in/justinmjoh">
-                    <FaLinkedinIn className="h-5 w-5 text-xl duration-200 hover:text-cyan-600 focus:text-cyan-600" title="LinkedIn" />
+                    <FaLinkedinIn className="h-6 w-6 md:h-5 md:w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="LinkedIn" />
                 </a>
                 <a href="https://twitter.com/justinmjoh">
-                    <FaTwitter className="h-5 w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="Twitter" />
+                    <FaTwitter className="h-6 w-6 md:h-5 md:w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="Twitter" />
                 </a>
             </div>
             <p className="text-xs py-2 px-2">&copy; 2022 by Justin Johnson</p>
