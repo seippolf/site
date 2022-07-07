@@ -1,20 +1,23 @@
 import { Link } from "gatsby"
 import React from "react"
+import NavLink from "./NavLink"
 
 const Navigation = () => {
     return (
         <nav class="sticky top-0 z-50">
             <div class="bg-slate-900 py-2 border-b border-pink-600 shadow-lg">
-                <div class="max-w-7xl md:mx-auto md:px-2 md:space-x-2">
-                    <h1 class="inline-flex px-3 font-bold duration-200 underline text-2xl decoration-pink-600 hover:decoration-cyan-600">
-                        <Link to="/">Justin Johnson</Link>
+                <div class="max-w-7xl md:mx-auto md:space-x-2 space-y-2 ">
+                    <h1 class="inline-flex px-3 font-bold duration-200 underline text-2xl">
+                        <Link 
+                            class="decoration-pink-600 hover:decoration-cyan-600"
+                            to="/"
+                            activeClassName="decoration-yellow-400"
+                            >
+                                Justin Johnson
+                        </Link>
                     </h1>
-                    <span class="flex md:inline-flex w-full md:w-auto px-3 py-2 duration-200 hover:bg-slate-700 focus:bg-slate-700 hover:border-cyan-600 focus:border-cyan-600 border-transparent border rounded-xl">
-                        <Link to="/about">About</Link>
-                    </span>
-                    <span class="flex md:inline-flex w-full md:w-auto px-3 py-2 duration-200 hover:bg-slate-700 focus:bg-slate-700 hover:border-cyan-600 focus:border-cyan-600 border-transparent border rounded-xl">
-                        <Link to="/projects">Projects</Link>
-                    </span>
+                    <NavLink text="About" to="/about"/>
+                    <NavLink text="Projects" to="/projects"/>
                 </div>
             </div>
         </nav>
