@@ -9,8 +9,8 @@ const Navigation = () => {
                     <h1 class="inline-flex px-3 font-bold duration-200 underline text-2xl decoration-pink-600 hover:decoration-cyan-600">
                         <Link to="/">Justin Johnson</Link>
                     </h1>
-                    <Link class="inline-flex w-full md:w-auto px-3 py-2 duration-200 hover:bg-slate-700 focus:bg-slate-700 hover:border-cyan-600 focus:border-cyan-600 border-transparent border rounded-xl" to="/about">About</Link>
-                    <Link class="inline-flex w-full md:w-auto px-3 py-2 duration-200 hover:bg-slate-700 focus:bg-slate-700 hover:border-cyan-600 focus:border-cyan-600 border-transparent border rounded-xl" to="/projects">Projects</Link>
+                    <Link class="flex md:inline-flex w-full md:w-auto px-3 py-2 duration-200 hover:bg-slate-700 focus:bg-slate-700 hover:border-cyan-600 focus:border-cyan-600 border-transparent border rounded-xl" to="/about">About</Link>
+                    <Link class="flex md:inline-flex w-full md:w-auto px-3 py-2 duration-200 hover:bg-slate-700 focus:bg-slate-700 hover:border-cyan-600 focus:border-cyan-600 border-transparent border rounded-xl" to="/projects">Projects</Link>
                 </div>
             </div>
         </nav>
