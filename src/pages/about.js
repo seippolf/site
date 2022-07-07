@@ -7,10 +7,9 @@ const AboutPage = () => {
     return (
         <>
             <Helmet>
-                <meta charSet="utf-8" />
                 <title>About Me | Justin Johnson</title>
                 <meta name="description" content="Justin Johnson is a web developer in Tucson, Arizona. Here is a information about Justin."/>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="http://justinmjoh.com/about"/>
             </Helmet>
             <Layout>
                 <article class="space-y-4">

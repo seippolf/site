@@ -6,10 +6,9 @@ const ProjectsPage = () => {
     return (
         <>
             <Helmet>
-                <meta charSet="utf-8" />
                 <title>Projects | Justin Johnson</title>
                 <meta name="description" content="Justin Johnson is a web developer in Tucson, Arizona. Here are some of Justin's projects."/>
-                <link rel="canonical" href="http://mysite.com/example" />
+                <link rel="canonical" href="http://justinmjoh.com/projects"/>
             </Helmet>
             <Layout>
                 <article class="space-y-4">

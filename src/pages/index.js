@@ -6,10 +6,9 @@ const IndexPage = () => {
   return (
     <>
       <Helmet>
-          <meta charSet="utf-8" />
           <title>Home | Justin Johnson</title>
           <meta name="description" content="Justin Johnson is a web developer in Tucson, Arizona."/>
-          <link rel="canonical" href="http://mysite.com/example" />
+          <link rel="canonical" href="http://justinmjoh.com/"/>
       </Helmet>
       <Layout>
         <h2 class="text-xl md:text-2xl lg:text-3xl font-bold text-yellow-400">
