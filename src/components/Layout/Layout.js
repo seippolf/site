@@ -4,9 +4,9 @@ import Navigation from "../Navigation"
 
 const Layout = ({ children }) => {
   return (
-    <div className="bg-slate-800 text-slate-200 font-mono antialiased flex flex-col min-h-screen">
+    <div className="bg-slate-800 text-slate-200 font-mono antialiased flex flex-col min-h-screen min-w-full">
       <Navigation/>
-      <main className=" w-full md:w-3/4 mx-auto m-8 p-8 rounded-xl bg-slate-700 border border-pink-600 shadow-lg flex-grow">
+      <main className="w-full md:w-3/4 mx-auto m-8 p-8 rounded-xl bg-slate-700 border border-pink-600 shadow-lg flex-grow">
         {children}
       </main>
       <Footer/>
