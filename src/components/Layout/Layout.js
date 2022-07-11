@@ -6,7 +6,13 @@ import Navigation from "../Navigation"
 const Layout = ({ children }) => {
   return (
     <>
-      <Helmet htmlAttributes={{ lang: 'en' }}>
+      <Helmet 
+        htmlAttributes={{ 
+        lang: 'en' }}
+        bodyAttributes={{
+          class: 'bg-slate-800'
+        }}
+        >
         <meta charSet="utf-8"/>
       </Helmet>
       <div className="bg-slate-800 text-slate-200 font-mono antialiased flex flex-col min-h-screen min-w-full">
