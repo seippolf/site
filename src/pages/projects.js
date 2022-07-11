@@ -22,7 +22,12 @@ const ProjectsPage = () => {
                         </li>
                         <li class="text-cyan-600">
                             <span class="text-slate-200">
-                                <a class="duration-200 hover:text-pink-600" href="https://www.digitalocean.com/products/droplets">Digital Ocean Droplet</a> (server)
+                                <a class="duration-200 hover:text-pink-600" href="https://www.gatsbyjs.com/">GatsbyJS</a> (rendering)
+                            </span>
+                        </li>
+                        <li class="text-cyan-600">
+                            <span class="text-slate-200">
+                                <a class="duration-200 hover:text-pink-600" href="https://www.gatsbyjs.com/products/cloud/">Gatsby Cloud</a> (server)
                             </span>
                         </li>
                     </ul>
