@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `site`,
-    siteUrl: `https://justinmjoh.com/`,
+    siteUrl: `https://justinmjoh.com`,
   },
   plugins: [
     'gatsby-plugin-postcss',
@@ -13,5 +13,5 @@ module.exports = {
       }
     }
   ],
-  trailingSlash: "never"
+  trailingSlash: "always"
 }
