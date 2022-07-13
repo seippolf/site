@@ -16,8 +16,8 @@ const Navigation = () => {
                             Justin Johnson
                         </Link>
                     </h1>
-                    <NavLink text="About" to="/about"/>
-                    <NavLink text="Projects" to="/projects"/>
+                    <NavLink text="About" to="/about/"/>
+                    <NavLink text="Projects" to="/projects/"/>
                 </div>
             </div>
         </nav>
