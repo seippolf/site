@@ -10,7 +10,7 @@ const Navigation = () => {
                     <h1 class="font-roadrage inline-flex px-3 text-2xl">
                         <Link 
                             class="text-pink-600 hover:text-cyan-600 duration-200"
-                            to={'/' || 'https://justinmjoh.com'}
+                            to="https://justinmjoh.com"
                             activeClassName="text-yellow-400"
                             >
                             Justin Johnson
