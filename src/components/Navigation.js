@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import NavLink from "./NavLink"
+import StyledNavLink from "./StyledNavLink"
 
 const Navigation = () => {
     return (
@@ -16,8 +16,8 @@ const Navigation = () => {
                             Justin Johnson
                         </Link>
                     </h1>
-                    <NavLink text="About" to="/about/"/>
-                    <NavLink text="Projects" to="/projects/"/>
+                    <StyledNavLink to="/about/">About</StyledNavLink>
+                    <StyledNavLink to="/projects/">Projects</StyledNavLink>
                 </div>
             </div>
         </nav>
