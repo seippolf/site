@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="bg-slate-900 py-2 border-t border-pink-600 text-center">
             <div className="inline-flex space-x-4 md:space-x-2 py-2 px-2 border border-yellow-400 rounded-xl">
                 <a href="https://github.com/seippolf">
-                    <FaGithub className="h-6 w-6 md:h-5 md:w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="Twitter" />
+                    <FaGithub className="h-6 w-6 md:h-5 md:w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="GitHub" />
                 </a>
                 <a href="https://www.instagram.com/justinmjoh">
                     <FaInstagram className="h-6 w-6 md:h-5 md:w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="Instagram" />
@@ -18,7 +18,7 @@ const Footer = () => {
                     <FaTwitter className="h-6 w-6 md:h-5 md:w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="Twitter" />
                 </a>
             </div>
-            <p className="text-xs py-2 px-2">&copy; 2022 by Justin Johnson</p>
+            <p className="text-xs py-2 px-2">&copy; { new Date().getFullYear() } by Justin Johnson</p>
         </footer>
     )
 }

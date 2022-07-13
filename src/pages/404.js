@@ -9,7 +9,7 @@ const NotFoundPage = () => {
                 <h2 class="text-5xl underline">404</h2>
                 <p class="p-2">You seem sorta lost.</p>
                 <p class="p-2">But we all do too, sometimes.</p>
-                <p class="p-2">Let me take you <Link to="/" class="underline hover:text-cyan-400 focus:text-cyan-400 active:text-cyan-400">home</Link>.</p>
+                <p class="p-2">Let me take you <Link to="/" class="underline hover:text-pink-600 focus:text-pink-600 active:text-pink-600">home</Link>.</p>
             </article>
         </Layout>
     )
