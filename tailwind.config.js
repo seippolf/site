@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        roadrage: ['RoadRage', 'monospace']
+        roadrage: ['RoadRage', 'monospace'],
+        vcr: ['VCR_OSD_MONO', 'monospace']
       }
     },
   },

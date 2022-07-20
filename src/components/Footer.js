@@ -18,7 +18,7 @@ const Footer = () => {
                     <FaTwitter className="h-6 w-6 md:h-5 md:w-5 duration-200 hover:text-cyan-600 focus:text-cyan-600" title="Twitter" />
                 </a>
             </div>
-            <p className="text-xs py-2 px-2">&copy; { new Date().getFullYear() } by Justin Johnson</p>
+            <p className="text-sm py-2 px-2 font-vcr">&copy; { new Date().getFullYear() } by Justin Johnson</p>
         </footer>
     )
 }
