@@ -1,13 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
 import photo from '../images/about-photo.jpeg'
-import { Helmet } from 'react-helmet'
 
 export function Head() {
     return (
         <>
             <title>About Me | Justin Johnson</title>
-            <meta name="description" content="Justin Johnson is a web developer in Tucson, Arizona. Here is a information about Justin."/>
+            <meta name="description" content="Justin Johnson is a web developer in Tucson, Arizona. Here is some information about Justin."/>
             <link rel="canonical" href="http://justinmjoh.com/about"/>
         </>
     )
@@ -37,7 +36,7 @@ export default function AboutPage() {
                     After highschool, I attended Bellevue College where I learned perseverance, ultimately earning my Associates in Science
                     amidst the height of the Coronavirus Pandemic. After graduation, I quickly moved to Tucson, Arizona to further my 
                     education, currently working on a Bachelors in Computer Science at the University of Arizona. When not in classes, 
-                    I serve as a web developer for the university's bookstore.
+                    I serve as a web developer for the university's bookstore and student union.
                 </p>
             </article>
         </Layout>
