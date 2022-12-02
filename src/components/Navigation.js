@@ -2,7 +2,7 @@ import React from "react"
 import Logo from "./Logo"
 import StyledNavLink from "./StyledNavLink"
 
-const Navigation = () => {
+export default function Navigation() {
     return (
         <nav class="sticky top-0 z-50">
             <div class="bg-slate-900 py-2 border-b border-pink-600 shadow-lg">
@@ -15,5 +15,3 @@ const Navigation = () => {
         </nav>
     )
 }
-
-export default Navigation

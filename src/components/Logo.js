@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const Logo = () => {
+export default function Logo() {
     return (
         <h1 class="font-roadrage inline-flex px-3 text-2xl">
         <Link 
@@ -17,5 +17,3 @@ const Logo = () => {
     </h1>
     )
 }
-
-export default Logo

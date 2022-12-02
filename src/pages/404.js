@@ -2,7 +2,18 @@ import React from 'react';
 import Layout from '../components/Layout/Layout';
 import { Link } from 'gatsby';
 
-const NotFoundPage = () => {
+
+export function Head() {
+    return (
+        <>
+            <title>404 | Justin Johnson</title>
+            <meta name="description" content="404 error, page was not found!"/>
+            <link rel="canonical" href="http://justinmjoh.com/404"/>
+        </>
+    )
+}
+
+export default function NotFoundPage() {
     return(
         <Layout>
             <article class="text-center">
@@ -14,5 +25,3 @@ const NotFoundPage = () => {
         </Layout>
     )
 }
-
-export default NotFoundPage
