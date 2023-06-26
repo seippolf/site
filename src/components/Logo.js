@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 
 export default function Logo() {
     return (
-        <h1 class="font-roadrage inline-flex px-3 text-2xl">
+        <h1 className="font-roadrage inline-flex px-3 text-2xl">
         <Link 
             className="text-pink-600 hover:text-cyan-600 duration-200"
             to="/"
